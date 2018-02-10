@@ -71,9 +71,6 @@ public class Uitls {
 	}
 	
 	
-	private static long getSDCardsize() {
-		
-	}
 	
 	public static List<String> getExteralStorage(Context context) {
 		ArrayList <String> ret = new ArrayList <String> ();
