@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.reako.adplayermanager.TestActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_start_reg_dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StartRegDevice"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/reg_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_start_download_apk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StartDownloadApp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/download_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_start_install_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StartInstallApp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/install_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_start_uninstall_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StartUninstallApp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/uninstall_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/btn_start_start_boot_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StartBootAd"
+            android:textSize="16sp" />
+        
+        <Button
+            android:id="@+id/btn_start_start_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StartSettings"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_video_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VideoPlay"
+            android:textSize="16sp" />
+        
+        <Button
+            android:id="@+id/btn_video_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VideoPause"
+            android:textSize="16sp" />
+        
+        <Button
+            android:id="@+id/btn_channel_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ChangeChannel"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
